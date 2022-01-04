@@ -1,3 +1,4 @@
+currentBuild.displayName = "Test_build-#" + currentBuild.number
 pipeline{
     environment{
         PATH = "/usr/share/maven/bin:$PATH"
